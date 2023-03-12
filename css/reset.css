@@ -48,6 +48,7 @@ a:not([class]) {
 img,
 picture {
   max-width: 100%;
+  height: auto;  /* added this line after adding width and height to prevent warped images */
   display: block;
 }
 
